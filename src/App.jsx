@@ -4,8 +4,6 @@ import CourseForm from "./CourseForm";
 import TodoList from "./TodoList";
 import { v4 as uuidv4 } from "uuid";
 import GroceryList from "./task/GroceryList";
-import Ghibli from "./gibhliart/Gibhli";
-import GhibliConverter from "./gibhliart/Gibhli";
 
 const App = () => {
   let [state, setState] = useState({
@@ -67,24 +65,23 @@ const App = () => {
   };
 
   return (
-    // <article>
-    //   <h1>ToDoList</h1>
-    //   <main>
-    //     <CourseForm
-    //       course={course}
-    //       trainer={trainer}
-    //       handleChange={handleChange}
-    //       handleSubmit={handleSubmit}
-    //     />
-    //     <TodoList
-    //       items={items}
-    //       handleDelete={handleDelete}
-    //       handleUpdate={handleUpdate}
-    //     />
-    //   </main>
-    // </article>
+    <article>
+      <h1>ToDoList</h1>
+      <main>
+        <CourseForm
+          course={course}
+          trainer={trainer}
+          handleChange={handleChange}
+          handleSubmit={handleSubmit}
+        />
+        <TodoList
+          items={items}
+          handleDelete={handleDelete}
+          handleUpdate={handleUpdate}
+        />
+      </main>
+    </article>
     // <GroceryList/>
-    <GhibliConverter/>
   );
 };
 
