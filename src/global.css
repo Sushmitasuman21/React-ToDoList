@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  background-color: #c7b198;
+  color: #00bbf0;
+  width: 90%;
+  margin: 20px auto;
+}
+
+article h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.form-group label {
+  color: #f8b595;
+  display: block;
+  padding: 10px;
+}
+
+.form-group input {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #6c5b7c;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #f8b595;
+  color: #6c5b7c;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1px solid #6c5b7c;
+}
+
+.todo h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px;
+  border-bottom: 1px solid #f8b595;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+}
+
+table tr,
+th,
+td {
+  border: 1px solid darkred;
+  color: darkblue;
+  padding: 10px;
+  margin: 8px;
+}
+
+th {
+  font-size: 10px;
+}
+
+table button {
+  background-color: #f8b595;
+  color: #6c5b7c;
+  padding: 4px;
+  margin: 7px;
+  width: 100%;
+  border-radius: 4px;
+}
