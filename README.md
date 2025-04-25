@@ -20,6 +20,13 @@ A simple React app to manage a list of courses. Users can add, update, and delet
 - CSS or Tailwind CSS
 
 ---
+## 🛒 (Optional) Grocery List Project
+
+The **Grocery List** component is present but **currently commented out** in `App.jsx`.
+
+To use it:
+1. Uncomment the `<GroceryList />` line in `App.jsx`
+2. Comment out or toggle the `CourseForm` and `CourseList` components
 
 # React + Vite
 
