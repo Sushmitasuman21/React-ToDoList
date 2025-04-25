@@ -1,3 +1,26 @@
+# 📘 React Course Manager ToDoList App
+
+A simple React app to manage a list of courses. Users can add, update, and delete course entries containing a **Course Name** and a **Trainer Name**.
+
+---
+
+## ✨ Features
+
+- ➕ Add a course with course name and trainer name
+- 📝 Update existing course details
+- ❌ Delete a course
+- 🔄 Real-time list updates
+
+---
+
+## 🛠 Tech Stack
+
+- React (Functional Components + Hooks)
+- JavaScript
+- CSS or Tailwind CSS
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
